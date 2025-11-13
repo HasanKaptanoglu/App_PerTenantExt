@@ -43,6 +43,8 @@ jobs:
   Initialization:
     needs: [ ]
     runs-on: [ windows-latest ]
+    env:
+      BcContainerHelperVersion: '3.0.31'
     outputs:
       deviceCode: ${{ steps.authenticate.outputs.deviceCode }}
       githubRunner: ${{ steps.ReadSettings.outputs.GitHubRunnerJson }}
