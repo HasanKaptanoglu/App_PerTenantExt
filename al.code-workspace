@@ -1,8 +1,11 @@
 {
-    "folders": [
-        {
-            "path": ".AL-Go"
-        }
-    ],
-    "settings": {}
+  "folders": [
+    {
+      "path": "App_PerTenantExt"
+    },
+    {
+      "path": ".AL-Go"
+    }
+  ],
+  "settings": {}
 }
